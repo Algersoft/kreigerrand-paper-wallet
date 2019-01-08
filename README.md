@@ -2,7 +2,7 @@
 
 **Kriegerrand Paper Wallet Generator**
 
-https://algersoft.org/paper-wallet/
+https://kwallet.kriegerrand.com/
 
 ## LICENSE
 

@@ -1,5 +1,5 @@
-// Copyright (c) 2018, The TurtleCoin Developers
-// Copyright (c) 2019, Algersoft (Kriegerrand Developers)
+// Copyright (c) 2018, The Kriegerrand Developers
+//
 // Please see the included LICENSE file for more information.
 
 var notification = document.getElementById("notification_container");

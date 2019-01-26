@@ -1,7 +1,69 @@
-/* Copyright (c) 2018, The TurtleCoin Developers
-// Copyright (c) 2019, Algersoft (Kriegerrand Developers)
+/* Copyright (c) 2018, TurtleCoin
+// Copyright (c) 2019 Algersoft Kriegerrand Developers
 // Please see the included LICENSE file for more information.
 */
+
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+    text-align: left;
+    font-family: vt323;
+    font-size: 1.2rem;
+}
+
+
+
+pre {
+	    background-color: #00ff00;
+		color: #003c00;
+}
+
+.hero.is-white .subtitle {
+    color: #00ff00;
+}
+
+.notification.is-info {
+    background-color: #001f00;
+    color: #0f0;
+}
+
+.input, .textarea {
+    background-color: #020202;
+    border-color: #00ff00;
+    color: #00ff00;
+}
+
+.hero.is-white a.navbar-item:hover {
+    background-color: #001000;
+    color: #0a0a0afa;
+}
+
+.footer {
+    background-color: #010201;
+    padding: 3rem 1.5rem 6rem;
+}
+
+.button.is-dark {
+    background-color: #00ff00;
+    border-color: #030603;
+    color: #030603;
+}
+
+hr {
+    background-color: #00ff00;
+}
+
+.notification.is-danger {
+    background-color: #00ff00;
+    color: #081508;
+}
+
+.hero.is-white {
+    background-color: #003f00;
+    color: #00ff00;
+}
 
 body {
   font-family: 'SF UI Display Medium',sans-serif;

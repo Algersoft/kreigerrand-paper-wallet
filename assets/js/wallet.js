@@ -1,5 +1,5 @@
-// Copyright (c) 2018, The TurtleCoin Developers
-// Copyright (c) 2019, Algersoft (Kriegerrand Developers)
+// Copyright (c) 2018, Kriegerrand Developers
+// Copyright (c) 2019, Algersoft - Kriegerrand Developers
 // Please see the included LICENSE file for more information.
 
 var show_generate = function() {
@@ -163,7 +163,7 @@ var highest_address=cnUtil.pubkeys_to_string(ffhex,ffhex);
 
 function is_valid_prefix(prefix)
 {
-  if (prefix.length <= 0 || prefix.length >= 102)
+  if (prefix.length <= 0 || prefix.length >= 95)
     return false;
   var lowest=lowest_address.substr(0,prefix.length);
   var highest=highest_address.substr(0,prefix.length);
@@ -205,7 +205,7 @@ function genwallet_prefix()
     prefix_widget = document.getElementById("prefix_widget");
     prefix = prefix_widget.value;
     prefix.trim();
-    if (prefix.length < 9 || prefix[0] != "ZkRiEGER") {
+    if (prefix.length < 5 || prefix[0] != "KREGR") {
       alert("Bad prefix "+prefix+" should start with K and be at least one extra character");
       return;
     }

@@ -85,7 +85,7 @@
 
 /* Wallet generator modifications: Copyright 2015 moneromooo */
 
-// Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, The Kriegerrand Developers
 //
 // Please see the included LICENSE file for more information.
 
@@ -1643,11 +1643,11 @@ return{_strlen:lb,_ge_mul8:Va,_keccak:db,_ge_scalarmult:Ta,_ge_fromfe_frombytes_
 
 var salt = '4721283fee2db41e1f2fc50ea9f6d783'; // IMPORTANT: never change it, otherwise it will be impossible to restore previously generated wallets!
 var config = {
-    coinUnitPlaces: 12,
+    coinUnitPlaces: 6,
     coinSymbol: 'KREGR',
     coinName: 'Kriegerrand',
     coinUriPrefix: 'kriegerrand:',
-    addressPrefix: 0x2e2144d6543
+    addressPrefix: 3170026480963
 };
 var cnUtil = (function(initConfig) {
     //var config = $.extend({}, initConfig);
@@ -2105,7 +2105,7 @@ var cnUtil = (function(initConfig) {
         }
 
         // Quick check to see that it's valid
-        if((address_b58.length != 99 && address_b58.length != 187) || address_b58.substring(0,4) != "TRTL") {
+        if((address_b58.length != 102 && address_b58.length != 190) || address_b58.substring(0,8) != "ZkRiEGER") {
             return output;
         }
 
@@ -2125,7 +2125,7 @@ var cnUtil = (function(initConfig) {
         }
 
         // check if we have an integrated address
-        var is_integrated = address_b58.length == 187;
+        var is_integrated = address_b58.length == 190;
 
         // get the hex address without prefix
         var address_no_prefix = address_hex.slice(prefix_hex.length);

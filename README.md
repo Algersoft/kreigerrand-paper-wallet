@@ -2,7 +2,7 @@
 
 **Kriegerrand Paper Wallet Generator**
 
-https://kwallet.kriegerrand.com/
+https://wallet.kriegerrand.com/
 
 ## LICENSE
 

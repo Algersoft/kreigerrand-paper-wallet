@@ -1,11 +1,10 @@
 <!-- Copyright (c) 2018, Kriegerrand Developers
 // Copyright (c) 2019, Algersoft ( Kriegerrand Developers )
 // Please see the included LICENSE file for more information. -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Kriegerrand Wallet Generator</title>
+    <title>Kriegerrand Paper Wallet - Cold Storage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
@@ -31,7 +30,7 @@
         }
       });
     </script>
-
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Luckiest+Guy|Orbitron|ZCOOL+QingKe+HuangYou" rel="stylesheet">
   </head>
   <body>
     <section class="hero is-white is-fullheight">
@@ -39,7 +38,7 @@
 	<header class="navbar">
 	  <div class="container">
 	    <div class="navbar-brand">
-	      <a href="" class="navbar-item is-size-3 has-text-weight-semibold"> Kriegerrand</a>
+	     <img class="logo" src="./assets/img/Kriegerrand-Logo-Paper-Wallet1.png">
 	      <span class="navbar-burger burger" data-target="navbarMenu">
 		<span></span>
 		<span></span>
@@ -50,15 +49,15 @@
 	    <div id="navbarMenu" class="navbar-menu">
               <div class="navbar-start">
                 <a href="index.html" class="navbar-item">
-                  Main generator
+                  Paper Wallet Generator
                 </a>
 
                 <a href="identicon.html" class="navbar-item">
-                  Custom identicon
+                  Custom Identicon
                 </a>
 
                 <a href="check.html" class="navbar-item">
-                  Address checker
+                  Address Checker
                 </a>
               </div>
             </div>
@@ -71,25 +70,32 @@
 
           <div class="columns noprint">
             <div class="column is-12 notification is-danger has-text-centered noprint">
-	      <p class="noprint">Anything on this page in a pink colored box is <u><b>secret</u></b> and should not be shared!</p>
+	      <p class="noprint">Any white text in a black box, like this, is <u><b>SECRET</u></b> and should not be shared!</p>
             </div>
           </div>
 
           <div class=" has-text-centered" style="margin:50px 0 50px 0;">
-            <img src="./assets/img/logo.png" width="150" height="" />
-            <h1 class="subtitle is-size-5" style="margin-top:20px;">Kriegerrand Wallet Generator</h1>
+            <img src="./assets/img/Kriegerrand-Paper-Wallet-Cold-Stoarage-Center.jpg" width="40%" height="" />
+            <h1 class="subtitle is-size-5" style="margin-top:20px;">Kriegerrand Paper Wallet Generator</h1>
             <hr>
           </div>
 
           <div class="columns">
             <div class="column is-12 noprint has-text-centered">
-
-	      <button class="button is-dark d-print-noe" onclick="js:show_generate();" type="button" value="Generate a wallet">Create a Wallet</button> or
-	      <button class="button is-dark noprint" onclick="js:show_restore();" type="button" value="restore keys from seed phrase">Restore keys from seed phrase</button>
+<button class="button is-dark d-print-noe" onclick="js:show_generate();" type="button" value="Generate a wallet" style="
+    padding-top: 1%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+">Create Wallet</button>or 
+<button class="button is-dark noprint" onclick="js:show_restore();" type="button" value="restore keys from seed phrase" style="
+    padding-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+">Import Wallet</button>
 
 	      <div id="generate" style="display:none;">
 
-	        <p class="noprint" style="margin-top: 20px;">For extra security, type a few random letters, words, numbers, or symbols below.</p>
+	        <p class="noprint" style="margin-top: 20px;">For extra security, type some random nonsense (letter, numbers, whatevers) in the space below.</p>
 
 	        <hr>
 
@@ -211,7 +217,7 @@
       <div class="date-text">Date</div>
       <div class="instruction-text">
         <ul>
-          <li>
+          <li></br>
             To deposit funds to this Kriegerrand paper wallet: send KREGR to the <b>public</b> address
           </li>
           <li>
@@ -225,16 +231,6 @@
       <div id="address_qr_widget_copy" class="qr-address"></div>
       <div id="view_key_widget_copy" class="view_key_widget"></div>
       <div id="qrcodeView_copy" class="qr-view"></div>
-      <div class="logo-text">
-        <ul>
-          <div class="logo">
-            <img class="logo" src="assets/img/logo.png"/>
-          </div>
-          <li>
-            <b>ALGERSOFT</b>
-          </li>
-        </ul>
-      </div>
     </div>
 
 

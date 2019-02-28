@@ -12,16 +12,72 @@ body {
     font-family: vt323;
     font-size: 1.2rem;
 }
+.navbar {
+    background-color: #035c81!important;
+    color: white;
+}
 
+.navbar-menu {
+	padding-left: 10%;
+}
 
+a.navbar-item {
+    cursor: pointer;
+    padding-right: 8%;
+    font-size: 16px;
+}
 
+#seed_phrase {
+    color: #d2d2d294!important;
+}
+
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: context-menu;
+    justify-content: center;
+    padding-bottom: calc(2.375em - 2px);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: calc(1.05em - 2px);
+    text-align: center;
+    white-space: nowrap;
+	border-radius: 0px;
+}
+
+.button.is-black {
+    background-color: #111111;
+    border-color: black;
+    border-width: 3px;
+    color: #fff;
+    padding: .4% 5% 2.1% 5%;
+}
+
+.logo {
+    height: 70%;
+    padding-top: 5%;
+    max-width: 100%;
+}
+
+.address_widget {
+	font-size: 14px;
+}
+.notification.is-danger {
+    background-color: #ff0000;
+}
 pre {
-	    background-color: #00ff00;
 		color: #003c00;
 }
 
+@media screen and (max-width: 1087px)
+.hero.is-white .navbar-menu {
+    background-color: #000;
+}
+
 .hero.is-white .subtitle {
-    color: #00ff00;
+    color: #ffffff;
 }
 
 .notification.is-info {
@@ -30,13 +86,49 @@ pre {
 }
 
 .input, .textarea {
-    background-color: #020202;
-    border-color: #00ff00;
-    color: #00ff00;
+    background-color: #0009319c;
+    border-color: #ffffff;
+	border-radius: 0px;
+	color: #fff;
+	    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1.2rem;
+    height: 2.25em;
+    justify-content: flex-start;
+    line-height: 1.2;
+    position: relative;
+    vertical-align: top;
+}
+
+body, button, input, select, textarea {
+    font-family: "ZCOOL QingKe HuangYou";
+    /* font-size: 12px; */
+}
+
+.hero.is-white .subtitle {
+    color: #ffffff;
+    background-color: #13131385;
 }
 
 .hero.is-white a.navbar-item:hover {
     background-color: #001000;
+    color: #0a0a0afa;
+}
+a.navbar-item {
+    cursor: pointer;
+    padding-right: 8%;
+    /* text-align: center; */
+    margin-right: 14%;
+    font-size: 19px;
+    font-family: "gochi hand";
+}
+
+.hero.is-white a.navbar-item:hover {
+    background-color: #3893b6;
     color: #0a0a0afa;
 }
 
@@ -46,23 +138,28 @@ pre {
 }
 
 .button.is-dark {
-    background-color: #00ff00;
-    border-color: #030603;
-    color: #030603;
+    background-color: #045b80;
+    border-color: #fff;
+    color: #fff;
 }
 
 hr {
-    background-color: #00ff00;
+    background-color: #5ca2c1;
 }
 
 .notification.is-danger {
-    background-color: #00ff00;
-    color: #081508;
+    background-color: #000000f5;
+    color: #ffffff;
+    border: 3px solid #464646;
+    font-weight: bold;
 }
 
 .hero.is-white {
-    background-color: #003f00;
-    color: #00ff00;
+    background-image: url(https://wallet.kriegerrand.com/assets/img/Paper-Wallet-Template-background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	color: #fff;;
 }
 
 body {

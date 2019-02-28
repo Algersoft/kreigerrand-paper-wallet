@@ -4,7 +4,7 @@
 
 https://wallet.kriegerrand.com/
 
-
+![PaperKREGR](https://raw.githubusercontent.com/Algersoft/kreigerrand-paper-wallet/blob/master/Paper-Kriegerrand-Wallet-Sales-Page.jpgg "Paper KREGR Screens")
 
 ## LICENSE
 

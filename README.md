@@ -1,8 +1,10 @@
-# paper-krieger
+#  Paper KREGR 
 
 **Kriegerrand Paper Wallet Generator**
 
-http://wallet.kriegerrand.com/
+https://wallet.kriegerrand.com/
+
+
 
 ## LICENSE
 
